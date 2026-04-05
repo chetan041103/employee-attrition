@@ -35,7 +35,7 @@ with col2:
     st.subheader("📊 Work Information")
     time = st.number_input("Years in Company", 1, 10)
     accident = st.selectbox("Work Accident", ['Yes','No'])
-    promotion = st.selectbox("Promotion in Last 5 Years", ({'Yes': 1, 'No': 0}))
+    promotion = st.selectbox("Promotion in Last 5 Years", (1, 0))
     dept = st.selectbox("Department", 
         ['sales','technical','support','IT','hr','product_mng','marketing','RandD','accounting'])
     salary = st.selectbox("Salary", ['low','medium','high'])
